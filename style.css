@@ -1,0 +1,43 @@
+p{
+    color: blue;
+    background-color: grey;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+h1{
+}
+title{
+    color: hotpink;
+    background-color: red;
+}
+a:link{
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active{
+    color: hotpink;
+    background-color: yellow;
+    text-decoration: underline;
+}
+a:visited{
+    color: green;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:link{
+    display: inline-block;
+    background-color: aqua;
+    padding: 9px 5px;
+}
+a:hover{
+    background-color: darkblue;
+}
+body{
+    background-image: url("images/admin icon.png");
+    background-repeat: no-repeat;
+    background-attachment: revert;
+    background-size: 100% 100%;
+}

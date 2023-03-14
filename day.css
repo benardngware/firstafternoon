@@ -1,0 +1,17 @@
+p{
+    background-color: hotpink;
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    text-indent: 10cm;
+    word-spacing: 3cm;
+    text-decoration: underline;
+    line-height: 1cm;
+    border: 5px solid red;
+    outline: green solid 5px;
+}
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}

@@ -1,0 +1,36 @@
+li a{
+    display: block;
+color:  white;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+li a:hver{
+    background-color: yellowgreen;
+    color: red;
+    border: solid hotpink;
+}
+li a{
+    float: left;
+}
+h1{
+    text-align: center;
+    color: darkgreen;
+
+}
+p{
+    color: white;
+}
+abbr{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+}
+body{
+    background-color: rgba(2 7 4 );
+
+}
+h2{
+    text-decoration: underline;
+}

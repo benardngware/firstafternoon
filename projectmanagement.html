@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>projo</title>
+  <link rel="stylesheet" href="pr.css">
+  <script type="text/javascript">
+    function validate(){
+      var ProjectName=document.getElementById("name");
+      var assignee=document.getElementById("assignee");
+      var start=document.getElementById("Start");
+      var end=document.getElementById("end");
+      var des=document.getElementById("Description");
+      var prio=document.getElementById("prio");
+
+      if (ProjectName.value==""||start.value==""||end.value==""||des.value==""||prio.value==""){
+        alert("Details Required");
+        return false;
+      }
+      else{
+        return true;
+      }
+
+    }
+
+
+
+  </script>
+</head>
+<body>
+<h1>Project Management</h1>
+<form onsubmit="return validate()" action="https://r.mtdv.me/5hb3dqIrZZ">
+
+  <label for="name">Project Name</label>
+  <input type="text" id="name" placeholder="project name"><br><br>
+  <label for="assignee">Assigned to</label>
+  <select name="" id="assignee">
+    <option value="">him</option>
+    <option value="">her</option>
+  </select>
+  <label for="Start">Start Date</label>
+  <input type="date" id="Start"><br><br>
+  <label for="end">End Date</label>
+  <input type="date" id="end"><br><br>
+  <label for="prio">Priority</label>
+  high<input type="radio" id="prio">
+  <input type="radio" id="prio">average
+  <input type="radio" id="prio">low
+  <br><br>
+  <label for="Description">Description</label>
+  <textarea name="" id="Description" cols="30" rows="4"></textarea><br><br>
+  <input type="submit" value="ok">
+
+
+</form>
+</body>
+</html>

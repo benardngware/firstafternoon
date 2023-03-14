@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOOT PRAC</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<!--button groups-->
+<div class="btn-group">
+    <button type="button" class="btn btn-primary">Information</button>
+    <button type="button" class="btn btn-danger">MESSAGE</button>
+    <button type="button" class="btn btn-dark">FRIENDS</button>
+    <button type="button" class="btn btn-warning">SETTING</button>
+    <button type="button" class="btn btn-info">SEARCH</button>
+    <button type="button" class="btn btn-success">INFO</button>
+</div>
+<br><br>
+<div class="btn-group-vertical">
+    <button type="button" class="btn btn-primary">Information</button>
+    <button type="button" class="btn btn-danger">MESSAGE</button>
+    <button type="button" class="btn btn-dark">FRIENDS</button>
+    <button type="button" class="btn btn-warning">SETTING</button>
+    <button type="button" class="btn btn-info">SEARCH</button>
+    <button type="button" class="btn btn-success">INFO</button>
+    <a href="get%20in%20touch.html" class="btn btn-warning">background</a>
+</div>
+<!--badges-->
+<p>Some Information <span class="badge rounded-pill bg-danger">See</span></p>
+<p>Information <span class="badge rounded-pill bg-primary">Show</span></p>
+<p>Some Info <span class="badge rounded-pill bg-success">Here</span></p>
+
+<button type="button" class="btn btn-warning">Messages <span class="badge bg-danger">6</span></button>
+<br><br>
+
+<!--progress bars-->
+<div class="progress">
+    <div class="progress-bar-striped bg-success" style="width: 80%; height: 20px">USER1</div>
+</div>
+<div class="progress">
+    <div class="progress-bar-striped progress-bar-animated bg-danger" style="width: 60%; height: 30px">USER1</div>
+</div>
+<div class="progress">
+    <div class="progress-bar bg-primary" style="width: 20%; height: 50px">USER1</div>
+</div>
+<div class="progress">
+    <div class="progress-bar bg-warning" style="width: 70%; height: 60px">USER1</div>
+</div>
+<br><br>
+
+<!--spinners-->
+<div class="spinner-border spinner-border-lg text-danger"></div>
+<div class="spinner-border spinner-border-sm text-primary"></div>
+<div class="spinner-border text-info"></div>
+<div class="spinner-border text-dark"></div>
+<div class="spinner-border text-success"></div>
+<button type="button" class="btn btn-primary">hi<Spinning class="span spinner-border text-danger"></Spinning></button>
+<br><br>
+<div class="spinner-grow spinner-grow-lg bg-success"></div>
+<div class="spinner-grow spinner-grow-sm bg-info"></div>
+<div class="spinner-grow bg-danger"></div>
+<div class="spinner-grow bg-warning"></div>
+
+<!--cards-->
+<div class="card" style="width: 30%">
+    <img src="images/admin%20icon.png" class="card-img-top" alt="">
+    <div class="card-body">
+       <h1 class="card-title">Admin</h1>
+        <p>Granted permission</p>
+        <a href="get%20in%20touch.html" class="btn btn-primary">Show Profile</a>
+    </div>
+</div>
+
+</form>
+
+<p id="hh">hey everyone</p>
+<button onclick="displayResult()">change words</button>
+
+<script>
+    function displayResult(){
+        document.getElementById("hh").innerHTML= "bye everyone"
+    }
+</script>
+<br><br><br>
+<iframe src="matatu.html" frameborder="0" width="700" height="700" name="ski"></iframe>
+<a href="fridaypractice.html" target="ski">hi there</a><br><br><br>
+<button type="button" onclick="document.getElementById('bebe').innerHTML = Date()">click me for surprise</button>
+<p id="bebe"></p>
+<br><br>
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "images/buboff.jpeg"
+  } else {
+    pic = "images/ulbon.jpeg"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="images/bulbof.jpeg" width="100" height="180">
+
+<p>
+<button type="button" onclick="light(1)">Light On</button>
+<button type="button" onclick="light(0)">Light Off</button>
+</p>
+
+<br><br><br><br>
+
+<img src="images/bulboff.jpeg" alt="" id="hey">
+<button type="button" onclick="figo(3)">OFF</button>
+<button type="button" onclick="figo(4)">ON</button>
+
+<script>
+
+    function figo(sw){
+        var figo;
+        if (sw==3){
+            figo = "images/bulboff.jpeg";
+        } else {
+            figo = "images/bulbon.jpeg";
+        }
+       document.getElementById("hey").src= figo ;
+    }
+</script>
+</body>
+</html>

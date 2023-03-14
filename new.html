@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form Validate</title>
+    <script type="text/javascript">
+        function validate(){
+            var Username=document.getElementById("uname");
+
+            if(Username.value==""){
+                alert("No blank value allowed");
+                return-false;
+            }
+            else {
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+<form action="img src="images/pig.jpg" height="126" width="189"">
+    <label for="uname">Username</label>
+    <input type="text" id="uname"><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>

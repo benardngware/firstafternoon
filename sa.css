@@ -1,0 +1,39 @@
+th{
+    background-color: aqua;
+    padding: 50px;
+    text-decoration: black;
+    font-style: italic;
+    font-size: medium;
+    font-weight: normal;
+}
+table{
+    margin-left: 10cm;
+    margin-right: 15cm ;
+    background-color: hotpink;
+    border: 3px dashed orange;
+    outline: 3px dashed darkblue;
+}
+table,th,td{
+    border:2px solid red;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+    color: darkblue;
+font-size: 20px;
+}
+legend{
+    font-size: larger;
+    color: brown;
+    text-decoration: underline;
+
+}
+body{
+    background-color: burlywood;
+}
+form{
+    background-color: hotpink;
+    padding: 70px;
+    margin-left: 10cm;
+    margin-right: 15cm;
+}

@@ -1,0 +1,14 @@
+table{
+    height: 400px;
+    width: 75%;
+}
+table{
+    border:3px solid green;
+    border-collapse: separate;
+}
+th,td{
+    border: 3px solid green;
+    border-collapse: separate;
+}th{
+    background-color: orange;
+ }

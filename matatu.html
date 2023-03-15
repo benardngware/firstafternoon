@@ -12,17 +12,18 @@
 <body>
 
 <h1 style="text-decoration: underline"><strong>Kenya Matatu Operators</strong></h1>
-<ul style="background-color: transparent; overflow: hidden;  list-style-type: none; margin-left: auto; margin-right: auto ; padding: 0px">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#saccos">Saccos</a></li>
-    <li><a href="#book">Book A Seat</a></li>
-    <li><a href="#pics">Our Gallery</a></li>
-    <li><a href="#calls">Contact Us</a></li>
-    <li><a href="#support">Support Our Work</a></li>
-    <li><a href="#about">About Us</a></li>
-    <br>
-
-</ul>
+<div>
+    <ul class="n">
+        <li>Home</li>
+        <li>
+            <label for="saccos">Saccos</label>
+            <select name="Saccos" id="saccos"></select>
+            <option value="nazigi">Nazigi Sacco</option>
+            <option value="Marimba">Marimba Sacco</option>
+            <option value="Supermetro">Super Metro</option>
+        </li>
+    </ul>
+</div>
 <div style="background-color: black;" class="container-fluid" >
 
     <link rel="" href="" id="home">
@@ -49,19 +50,19 @@
 </div>
     <br><br>
 </div>
-<div class="container">
-<h1 style="text-align: center; text-decoration: underline">What Is This About?</h1>
-    <p>This idea was brought up by students at <a href="https://www.emobilis.ac.ke/" style="text-decoration: none; color: crimson;">eMobilis</a> school in Westlands, Kenya. This was due to the fact that a number of them left school very late ,and had no clue of the whereabouts of Westlands.</p>
+<div class="container" id="about">
+<h1 id="" style="text-align: center; text-decoration: underline" >What Is This About?</h1>
+    <p >This idea was brought up by students at <a href="https://www.emobilis.ac.ke/" style="text-decoration: none; color: crimson;">eMobilis</a> school in Westlands, Kenya. This was due to the fact that a number of them left school very late ,and had no clue of the whereabouts of Westlands.</p>
     <br>
-    <p> This proved to be very beneficial to them as many of them got home early enough to see journalists' boobs when they were reading out the news.</p>
+    <p> This proved to be very beneficial to them as many of them got home early enough to spend time with their families. Their safety was also increased against the danger that is presented to them as they travel from school to home at the evening hours.</p>
     <br><br>
 </div>
-
-    <form action="" style="background-color: lightskyblue; border-color: chartreuse; padding: 90px; margin-left: 190px; margin-right: 190px">
+<div class="hello" >
+    <form action="" id="book" style="background-color: lightskyblue; border-color: chartreuse; padding: 50px; margin-top: 5px;margin-left: 190px; margin-right: 190px">
         <legend style="text-align: center"> Where Are You Headed To?</legend>
         <br><br><br>
         <div class="form-floating">
-            <input type="text" class="form-control" id="from" style="width: 700px" placeholder= "I'm at...">
+            <input type="text" class="form-control" id="from" placeholder= "I'm at...">
             <label for="from" class="form-label">I'm at...</label>
         </div>
         <br><br>
@@ -69,8 +70,35 @@
             <input type="text" id="to" placeholder="I'm headed to..." class="form-control">
             <label for="to" class="form-label">I'm headed to...</label>
         </div>
+        <br><br>
+        <div class="form-floating">
+            <input type="time" placeholder="Approx time of pick-up..." id="time" class="form-control">
+            <label for="time" class="form-label">Approx time of pick-up...</label>
+
+        </div>
+        <br><br>
+        <div class="mb-3">
+            <label for="vehicle" class="form-label">Vehicle of preference?</label><br>
+                <input type="text" placeholder="Vehicle of Preference..." id="vehicle" list="vehiclelist">
+            <datalist id="vehiclelist">
+                <option value="Bus"></option>
+                <option value="Minibus"></option>
+                <option value="Van"></option>
+                <option value="Minivan"></option>
+
+            </datalist>
+        </div>
+        <br><br>
+
+        <button class="btn btn-success" type="submit">Submit</button>
 
     </form>
+</div>
+<br><br><br>
 
+<div class="reviews">
+
+
+</div>
 </body>
 </html>

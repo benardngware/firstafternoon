@@ -5,13 +5,12 @@ color:  white;
     text-decoration: none;
     text-align: center;
 }
-li a:hver{
-    background-color: yellowgreen;
-    color: red;
-    border: solid hotpink;
+li a:hover{
+  color: rebeccapurple;
 }
 li a{
     float: left;
+    margin-left: 50px;
 }
 h1{
     text-align: center;
@@ -33,4 +32,17 @@ body{
 }
 h2{
     text-decoration: underline;
+}
+div.hello{
+    background-image: url("images/BUS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+ul.n{
+   display: block;
+color:  white;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
 }
